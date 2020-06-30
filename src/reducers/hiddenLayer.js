@@ -1,5 +1,5 @@
 import { bindActionCreators } from "redux";
-import { BUILD_NEURAL_NETWORK, ADD_LAYER, SET_NEURON_COUNT } from '../constants/actionTypes'
+import { ADD_LAYER, BUILD_NEURAL_NETWORK, SET_NEURON_COUNT } from '../constants/actionTypes'
 
 const hiddenLayerReducer = (state = [], action) => {
     switch (action.type) {
