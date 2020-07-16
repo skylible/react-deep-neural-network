@@ -1,15 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import { Container } from '@material-ui/core';
+import Main from './layouts/main';
 import './App.css';
-import { useDispatch } from 'react-redux';
-import { ADD_LAYER } from './constants/actionTypes';
+import Navbar from './layouts/navbar';
 
 function App() {
-  const dispatch = useDispatch();
-
   return (
     <div className="App">
-      <button onClick={() => dispatch({ type: ADD_LAYER, payload: 'layer' })}>Add Layer</button>
+      <Navbar />
+      <Container maxWidth="sm">
+        <Main />
+      </Container>
+
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
     </div>
   );
 }
