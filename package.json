@@ -18,9 +18,9 @@
 		"websocket-extensions": "^0.1.4"
 	},
 	"scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"test": "react-scripts test",
+		"dev": "next",
+		"build": "next build",
+		"start": "next start",
 		"eject": "react-scripts eject"
 	},
 	"eslintConfig": {

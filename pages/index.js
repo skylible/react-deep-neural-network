@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from '@material-ui/core';
-import Main from './layouts/main';
-import Navbar from './layouts/navbar';
+import Main from '../src/layouts/main';
+import Navbar from '../src/layouts/navbar';
 
 function App() {
   return (

@@ -1,14 +1,13 @@
 import React from 'react';
 import { Container } from '@material-ui/core';
-import Main from './layouts/main';
-import Navbar from './layouts/navbar';
+import Navbar from '../src/layouts/navbar';
 
-function App() {
+function About() {
   return (
     <div className="App">
       <Navbar />
       <Container maxWidth="sm">
-        <Main />
+        <p>Created by Widi and Teams</p>
       </Container>
 
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
@@ -16,4 +15,4 @@ function App() {
   );
 }
 
-export default App;
+export default About;
